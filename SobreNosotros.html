@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpediem</title>
+    <link rel="stylesheet" href="Stile Index.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+<section class="Sub-header">
+        <nav>
+            <a href="Index.html"><img src="Imagenes/logo carpediem 3.png"></a>
+           <div class="nav-links" id="navLinks">
+             <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">INICIO</a></li>
+                    <li><a href="SobreNosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="Servicios.html">SERVICIOS</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contactanos.html">CONTACTANOS</a></li>
+                </ul>
+           </div>
+           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Sobre Nosotros</h1>
+</section>
+
+<!-- Acerca de Nuestros servicios -->
+
+<section class="sobre-nosotros">
+    <div class="row">
+        <div class="Sobre-col">
+            <h1>Sobre Nuestros equipos de Trabajo</h1>
+            <p>Nuestro equipo de trabajo esta altamente calificado, en cada area
+                en la que trabajamosa para que tengas tranquilidad a la hora de confiarnos
+                tu caso y tu información.
+            </p>
+                 <a href="" class="hero-btn red-btn">Explora ahora</a>
+        </div>
+        <div class="Sobre-col">
+            <img src="Imagenes/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+<!-- Profesionales -->
+<section class="Profesionales">
+    <h1>Nuestros Profesionales</h1>
+    <p>Conoce a nuestro equipo de trabajo.</p>
+
+    <div class="row">
+        <div class="Profesionales-col">
+            <img src="Imagenes/nelzon.png">
+            <div>
+                <h3>Nelson Flores</h3>
+                <p>Licenciado en seguros</p>
+                    
+            </div>
+        </div>
+         <div class="Profesionales-col">
+            <img src="Imagenes/omar.png">
+            <div>
+                <h3>Omar Funez</h3>
+                <p>Traductor</p>
+                    
+
+            </div>
+        </div>
+
+         <div class="Profesionales-col">
+            <img src="Imagenes/Luisa Funez.png">
+            <div>
+                <h3>Luisa funez</h3>
+                <p>Asistente administrativa</p>
+                    
+
+            </div>
+        </div>
+</section>
+
+<section class="Profesionales">
+     <div class="row">
+        <div class="Profesionales-col">
+            <img src="Imagenes/maria fernanda.png">
+            <div>
+                <h3>Maria Fernanda Montalvan</h3>
+                <p>Atención al cliente</p>
+                    
+            </div>
+        </div>
+         <div class="Profesionales-col">
+            <img src="Imagenes/gabriela.png">
+            <div>
+                <h3>Gabriela Reyes</h3>
+                <p>Administración</p>
+                    
+
+            </div>
+        </div>
+
+         <div class="Profesionales-col">
+            <img src="Imagenes/Juan Esteban.png">
+            <div>
+                <h3>Juan Esteban</h3>
+                <p>Diseñador Grafico</p>
+                    
+
+            </div>
+        </div>
+</section>
+
+<!-- Pie de página -->
+
+<section class="Footer">
+    <h4>Sobre Nosotros</h4>
+    <p>Somos Carpe Diem, nuestro enfoque es ser la mejor multiservice, de todo Estados Unidos, donde buscamos cubrir cada necesidad que tengas presente.</p>
+         <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+         </div>
+         <p>Hecho con<i class="fa-regular fa-heart"></i> por Carpe Diem</p>
+</section>
+
+<!-----JavaScript For toggle menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

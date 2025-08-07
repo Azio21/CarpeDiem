@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpediem</title>
+    <link rel="stylesheet" href="Stile Index.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+<section class="Sub-header">
+        <nav>
+            <a href="Index.html"><img src="Imagenes/logo carpediem 3.png"></a>
+           <div class="nav-links" id="navLinks">
+             <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">INICIO</a></li>
+                    <li><a href="SobreNosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="Servicios.html">SERVICIOS</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contactanos.html">CONTACTANOS</a></li>
+                </ul>
+           </div>
+           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Nuestro Blog</h1>
+</section>
+  
+<!-- Pagina de Contenido de las noticias -->
+
+<section class="Notices-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="Imagenes/Noticias.png">
+            <h2>Nuestras Noticias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Mollitia corporis quo adipisci accusantium cumque placeat provident
+                 neque laborum voluptas dicta animi, totam laudantium maxime vitae fugiat 
+                 corrupti reprehenderit alias nulla!</p>
+                 <br>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia,
+                    doloremque optio aliquid eveniet exercitationem porro iusto sint molestiae
+                    dolore, commodi aspernatur! Quos, neque asperiores! Hic doloribus ab quia culpa 
+                    mollitia.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia,
+                    doloremque optio aliquid eveniet exercitationem porro iusto sint molestiae
+                    dolore, commodi aspernatur! Quos, neque asperiores! Hic doloribus ab quia culpa 
+                    mollitia.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia,
+                    doloremque optio aliquid eveniet exercitationem porro iusto sint molestiae
+                    dolore, commodi aspernatur! Quos, neque asperiores! Hic doloribus ab quia culpa 
+                    mollitia.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia,
+                    doloremque optio aliquid eveniet exercitationem porro iusto sint molestiae
+                    dolore, commodi aspernatur! Quos, neque asperiores! Hic doloribus ab quia culpa 
+                    mollitia.</p>
+
+                    <div class="cajade-comentarios">
+
+                        <h3>Dejanos tus Comentarios</h3>
+                        <form class="Comment-form">
+                            <input type="text" placeholder="Ingresa tu Nombre">
+                            <input type="Correo" placeholder="Ingresa tu Correo">
+                            <textarea rows="5" placeholder="Tu comentario"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Enviar tu comentario</button>
+                        </form>
+
+                    </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Categorias de Publicaciones</h3>
+            <div>
+                <span>Economia</span>
+                <span>21</span>
+            </div>
+             <div>
+                <span>Construcción</span>
+                <span>28</span>
+            </div>
+             <div>
+                <span>Tecnologia</span>
+                <span>15</span>
+            </div>
+             <div>
+                <span>Turismo</span>
+                <span>34</span>
+            </div>
+             <div>
+                <span>Deportes</span>
+                <span>7</span>
+            </div>
+             <div>
+                <span>Redes Sociales</span>
+                <span>10</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pie de página -->
+
+<section class="Footer">
+    <h4>Sobre Nosotros</h4>
+    <p>Mantente al tanto de las nuevas noticias.</p>
+         <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+         </div>
+         <p>Hecho con<i class="fa-regular fa-heart"></i> por Carpe Diem</p>
+</section>
+
+<!-----JavaScript For toggle menu----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
